@@ -1,0 +1,247 @@
+*{
+    font-family: 'Public Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+}
+body{
+    height:100%;
+}
+header{
+   width: 100%;
+   top:0;
+   left: 0;
+   z-index: 1000;
+   margin-bottom: 5rem;
+}
+.container{
+   display: flex;
+   padding: 2rem 1rem;
+   align-items: center;
+   justify-content: space-between;
+   
+}
+.logo{
+  margin-left: 3rem;
+}
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    
+    
+}
+.nav ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 9rem;
+}
+.nav ul li{
+    margin:0 1rem;
+}
+.nav ul li a {
+    font-size: 1rem;
+    color: black;
+}
+.nav button{
+    width: 8rem;
+    height: 2rem;
+    border-radius: 1rem;
+    margin-right: 3rem;
+    font-size: 15px;
+    background: linear-gradient( 225deg,#2cb9cd 0%,#31cf71 100%);
+}
+/*.close{
+    font-size: 3.5rem;
+    cursor:pointer;
+    display: none;
+    background-image: url(bg-intro-desktop.svg);
+}*/
+/* main content*/
+.main img{
+
+    float:right;
+    width: 48%;
+    margin-top: -3rem;
+    position:absolute;
+    margin-left: 33rem;
+    margin-top:-5rem;
+    
+}
+.main2 h1{
+    text-align: left;
+    font-size:3rem ;
+    font-weight: 500;
+    margin:3rem;
+    margin-top: 10rem;
+}
+.main2 p {
+ text-align: left;
+ margin-left: 3rem;
+ margin-bottom: 2rem;
+
+}
+.main2 button{
+    width: 8rem;
+    height: 2rem;
+    border-radius: 1rem;
+    margin-right: 3rem;
+    font-size: 15px;
+    background: linear-gradient( 225deg,#2cb9cd 0%,#31cf71 100%);
+    margin-left: 3rem;
+    
+}
+/* content */
+.main3{
+    background:hsl(0, 0%, 98%) ;
+    width: 100%;
+    height: 40rem;
+    margin-top:10rem;
+}
+.content h1{
+    margin-top: 4rem;
+    padding-top: 9rem;
+    padding-left: 3rem;
+    font-weight: 400;
+  
+}
+.content p{
+    padding-top: 2rem;
+    padding-left: 3rem;
+    text-align: left;
+    font-weight: 400;
+    margin-bottom:3rem 
+    
+}
+
+.content2{
+    margin-left: 2rem;
+    margin-top:4rem;
+}
+.content2 ul  {
+    display: flex;
+    list-style: none;
+}
+.content2 ul  li h2{
+   margin-top: 2rem;
+   font-weight: 400;
+   margin-left: 1rem;
+}
+.content2 ul li p{
+    text-align:left;
+    margin:1rem;
+    line-height: 1.6;
+}
+.content2 ul li svg{
+    margin-left:1rem;
+}
+
+/* second body*/
+.main4{
+    margin-top:7rem;
+    margin-left: 4rem;
+
+}
+.content4{
+    margin-bottom: 4rem;
+}
+.content4 h1{
+    font-size: 2rem;
+    font-weight: 500;
+    word-spacing: 1;
+}
+.const ul{
+    display:flex;
+}
+.const ul li{
+    margin:1rem;
+    list-style: none;
+    background:hsl(0, 0%, 100%) ;
+
+}
+
+.const ul li img{
+    width:80%;
+    height: 30%;
+    
+}
+
+.const ul li h2{
+   color:hsl(234, 8%, 47%) ;
+    margin-top: 1.5rem;
+    font-size: 0.8rem;
+}
+.const ul li h1{
+    margin-top: 1.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: left;
+    color:hsl(234, 8%, 47%) ;
+
+} 
+.const ul li p {
+    margin-top:1rem;
+    font-weight: 400;
+    line-height: 1.2;
+    font-size: 0.9375rem;
+   color:hsl(234, 8%, 47%) ;
+
+}
+/* footer*/
+.footer{
+    background:hsl(233, 26%, 24%) ;
+    width:100%;
+    height: 13rem;
+    padding-top: 2rem;
+
+}
+.Icon{
+    margin: 2rem;
+}
+.Icons{
+    margin:3rem;
+}
+.footer .main5{
+    display: flex;
+    float:left;
+    margin-left: 22em;
+    margin-top:-10rem;
+}
+.footer .main6{
+    float:left;
+    margin-left: 50rem;
+    margin-top: -10rem;
+}
+.footer  .main5 ul li{
+    list-style: none;
+    color:hsl(233, 8%, 62%);
+    margin: 1rem;
+    
+}
+.footer .main6 button{
+    width: 8rem;
+    height: 2rem;
+    border-radius: 1rem; 
+    font-size: 15px;
+    background: linear-gradient( 225deg,#2cb9cd 0%,#31cf71 100%);
+}
+.footer .main6 p{
+    margin-top:1rem;
+    color:hsl(233, 8%, 62%);
+    font-size: 13px;
+    margin-left:-60px;
+}
+
+
+/* media queries */
+
+
+
